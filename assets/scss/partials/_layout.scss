@@ -40,10 +40,29 @@ body {
     margin: 0;
     height: 0;
     position: relative;
-    background: #ccc;
+    background-color: $primary-color;
     overflow: hidden;
     padding-bottom: 100%;
   }
+
+
+
+    @media (min-width: $small) {
+      .flex-grid {
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
+      }
+      .column {
+        width: 33.33%;
+      }
+      .column:not(:last-child) {
+        margin-bottom: 0;
+      }
+    }
+
+
+  
 
   img {
     max-width: 100%;
@@ -77,16 +96,4 @@ body {
   .column:not(:last-child) {
     margin-bottom: 30px;
   }
-  @media (min-width: 850px) {
-    .flex-grid {
-      display: flex;
-      flex-direction: row;
-      column-gap: 30px;
-    }
-    .column {
-      width: 33.33%;
-    }
-    .column:not(:last-child) {
-      margin-bottom: 0;
-    }
-  }
+ 
