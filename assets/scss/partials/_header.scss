@@ -1,12 +1,55 @@
-header { 
-    background-color:#ffc0cb;
-    margin: 0%;
-    display:flex;
+header{
+    background-color: $primary-color;
+    color: $text-color;
+    height: rem(50);
+  display: flex;
     justify-content: center;
-    height: 50px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    
+a {
+    @include mainFont;
+    @include fontLarge;
+}
+
+
+}
+
+.titulodapagina {
+    color: #fff;
+    margin-left: 60px;
+    @include mainFont;
+    @include fontLarge;
+    
+    
     }
 
-    h1 {
+h2{
 
-        margin-top: 0%;
-    }
+    flex-grow: 1;
+}
+
+ul { 
+
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    
+
+   
+}
+
+
+li {
+
+    list-style: none;
+}
+a{
+
+    color: aliceblue;
+    margin: 5px;
+    display: block;
+    padding: 0 1em;
+
+}
