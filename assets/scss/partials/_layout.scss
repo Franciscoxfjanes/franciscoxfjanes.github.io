@@ -716,26 +716,362 @@ margin-top: 30px;
 
     .lista{
         grid-column: 2 / span 10; 
-        justify-content: space-between;
         color: #fff;
 
+        ul{
+            justify-content: space-between;
+        }
     }
 
+    .area-barra{
 
+        width: 100%;
+        margin: 0;
+    }
     .barra {
-        height: fit-content;
+        width: 100%;
+        align-items: center;
     }
 }
 
-.analysis{
+.analysis1 {
     grid-column: 1 / span 6;
+    order: 5; 
 
-    h2{
-        grid-column: 1 / span 6;
-    }
 
-    p{
-        grid-column: 1 / span 6;
+}
+
+.WhatsApp-user-growth{
+    grid-column: 7 / span 6;
+    order: 6;
+    margin-right: 0;
+}
+
+.user-growth{
+    width: 100%;
+    margin-top: 20px;
+    margin-right: 0;
+}
+
+.survey-analysis-and-benchmark {
+    grid-column: 1 / span 6;
+    order: 7; 
+}
+
+.ilustracao {
+    grid-column: 7 / span 6;
+    order: 8;
+    margin-top: 0;
+
+}
+
+.question2{
+    grid-column: 1 / span 7;
+    order: 9; 
+}
+
+.whatsappuse{
+
+    grid-column: 1 / span 7;
+    order: 10; 
+    width: 100%;
+    margin: 0;
+}
+
+.usegrafico{
+    width: 100%;
+    align-items: center;
+
+}
+
+.grafico1{
+    grid-column: 1 / span 4;
+    order: 11; 
+    margin-top: 20px;
+}
+
+.grafico-1{
+    width: 100%;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+
+.grafico2{
+    grid-column: 5 / span 4;
+    order: 11; 
+    margin-top: 20px;
+}
+
+.grafico-2{
+    width: 100%;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.grafico3{
+    grid-column: 9 / span 4;
+    order: 11; 
+    margin-top: 20px;
+}
+
+.grafico-3{
+    width: 100%;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.major-frustrations{
+    grid-column: 1/ span 7;
+    order: 12; 
+}
+
+.area-matriz{
+    grid-column: 1/ span 12;
+    order: 13; 
+    margin: 0;
+}
+
+.matriz{
+    width: 100%;
+    margin-left: 0;
+}
+
+.How-might-we {
+    grid-column: 1/ span 5;
+    order: 14;  
+}
+
+.hmw-1{
+    grid-column: 1/ span 6;
+    order: 15;  
+}
+
+
+.hmw1{
+    width: 100%;
+}
+
+
+.hmw-2{
+    grid-column: 7/ span 6;
+    order: 15;  
+}
+
+
+.hmw2{
+    width: 100%;
+}
+
+
+.banner{
+
+    grid-column: 1/ span 15;
+    order: 16;  
+   
+
+}
+
+.marquee-whatsapp{
+
+    
+    @include fontxxLarge;
+    text-align: left;
+    background-color: #36BB76;
+    color: #fff;
+    width: 100%;
+}
+
+.mokcups{
+    grid-column: 1/ span 6;
+    order: 17;  
+
+}
+
+.mockup-1 {
+
+    grid-column: 1/ span 12;
+    order: 18;  
+    margin: 0;
+    
+    display: flex;
+}
+
+
+.mockup1{
+    width: 60%;
+    align-items: center;
+    display: flex;
+}
+
+.create{
+
+    grid-column: 1/ span 5;
+    order: 19;  
+   
+   
+
+   
+}
+
+.row{
+    grid-column: 1/ span 5;
+    order: 19;  
+    flex-direction: column;
+    display: flex;
+    color: #fff;
+    margin: 0;
+    padding: 0;;
+    list-style-type: none;
+    @include mainFont;
+       @include fontLarge;
+    
+
+    li{
+
+        display: inline-block;
+        
     }
+}
+
+
+
+
+
+.convite-1{
+    grid-column: 8/ span 6;
+    order: 19;  
+    
+}
+
+
+.convite1{
+
+    width: 60%;
+    border-radius: 20px;
+}
+
+
+
+
+
+.create2{
+
+    grid-column: 8/ span 6;
+    order: 20;  
+   
+   
+
+   
+}
+
+.row2{
+    grid-column: 8/ span 6;
+    order: 20;  
+    flex-direction: column;
+    display: flex;
+    color: #fff;
+    margin: 0;
+    padding: 0;;
+    list-style-type: none;
+    @include mainFont;
+       @include fontLarge;
+    
+
+    li{
+
+        display: inline-block;
+    
+    }
+}
+
+
+
+
+
+.convite-2{
+    grid-column: 1/ span 5;
+    order: 20;  
+    
+}
+
+
+.convite2 {
+
+    width: 65%;
+    border-radius: 20px;
+}
+
+
+.create3{
+
+    grid-column: 1/ span 5;
+    order: 21;  
+   
+   
+
+   
+}
+
+.row3{
+    grid-column: 1/ span 5;
+    order: 21;  
+    flex-direction: column;
+    display: flex;
+    color: #fff;
+    margin: 0;
+    padding: 0;;
+    list-style-type: none;
+    @include mainFont;
+       @include fontLarge;
+    
+
+    li{
+
+        display: inline-block;
+        
+    }
+}
+
+
+
+
+
+.convite-3{
+    grid-column: 8/ span 6;
+    order: 21;  
+    
+}
+
+
+.convite3{
+
+    width: 70%;
+    border-radius: 20px;
+}
+
+.area-thankyou{
+    grid-column: 1/ span 12;
+    order: 22; 
+    display: flex;
+    
+
+}
+
+.thankyou{
+
+    width: 50%;
+    align-items: center;
+    display: flex;
+    align-content: center;
+}
+
+.botao-whatsapp{
+    grid-column: 4/ span 5;
+    order: 23; 
+    display: flex;
+    width: 100%;
 }
 
