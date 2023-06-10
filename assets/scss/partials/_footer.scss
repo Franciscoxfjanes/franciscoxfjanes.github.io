@@ -28,9 +28,40 @@ footer{
         @include mainFont;
         @include fontLarge;
         text-align: center;
-        width: 100%;
+
         margin-top: 100px;
+
     
     }
     
+    .contact-links{
+        @include mainFont;
+        @include fontSmall;
+        color: #fff;
+
+    }
+}
+
+
+@media (max-width: 500px)
+{
+
+    .redes {
+        
+        @include fontMedium;
+        text-align: center;
+        flex-direction: column;
+        display: flex;
+        margin-top: 50px;
+
+    
+    }
+
+    .contact-links{
+        @include mainFont;
+        @include fontSmall;
+        color: #fff;
+
+    }
+
 }
