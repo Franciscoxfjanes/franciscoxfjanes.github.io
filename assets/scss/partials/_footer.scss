@@ -1,4 +1,4 @@
-footer{
+footer {
     background-color: $primary-color;
     color: #f4f4f4;
     height: 300px;
@@ -10,8 +10,8 @@ footer{
     width: 100%;
     color: #f4f4f4;
     text-align: center;
-    
-    
+
+
     .textorotativo {
 
         @include fontxxLarge;
@@ -19,9 +19,9 @@ footer{
         background-color: #0959F1;
         color: #fff;
         width: 100%;
-        
-        
-        
+
+
+
     }
 
     .redes {
@@ -31,10 +31,10 @@ footer{
 
         margin-top: 100px;
 
-    
+
     }
-    
-    .contact-links{
+
+    .contact-links {
         @include mainFont;
         @include fontSmall;
         color: #fff;
@@ -43,25 +43,58 @@ footer{
 }
 
 
-@media (max-width: 500px)
-{
+@media (max-width: 631px) {
+    footer {
+        background-color: $primary-color;
+        color: #f4f4f4;
 
-    .redes {
-        
-        @include fontMedium;
-        text-align: center;
-        flex-direction: column;
         display: flex;
-        margin-top: 50px;
-
-    
-    }
-
-    .contact-links{
+        flex-direction: column;
+        justify-content: center;
         @include mainFont;
         @include fontSmall;
-        color: #fff;
+        width: 100%;
+        color: #f4f4f4;
+        text-align: center;
+        padding: 30px;
+        ;
 
+
+        .textorotativo {
+
+            @include fontxxLarge;
+            text-align: left;
+            background-color: #0959F1;
+            color: #fff;
+            width: 100%;
+
+
+
+        }
+
+        .redes {
+
+            @include fontMedium;
+            text-align: center;
+            flex-direction: column;
+            display: flex;
+            margin-top: 50px;
+
+
+        }
+
+        .contact-links {
+            @include mainFont;
+            @include fontSmall;
+            color: #fff;
+
+        }
     }
 
+
+
+
+
 }
+
+

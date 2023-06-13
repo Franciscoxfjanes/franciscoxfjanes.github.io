@@ -1,6 +1,6 @@
 .main {
     background: $background-color;
-   
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,9 +9,9 @@
     max-width: 100%;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    /* @media (min-width: $medium) {
+}
+
+/* @media (min-width: $medium) {
     .main {
     max-width: 100%;
     padding: 30px;
